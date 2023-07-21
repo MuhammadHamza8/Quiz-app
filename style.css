@@ -1,0 +1,32 @@
+.form-col{
+
+    background:#eeeeee;
+    height: 600px;
+
+    border-radius: 20px;
+}
+
+.progress{
+    margin-top: 100px;
+}
+
+#exampleInputEmail1{
+    border-radius: 10px;
+}
+
+#exampleInputPassword1{
+    border-radius: 10px;
+}
+
+.img{
+    height: 590px;
+    width: 600px;
+}
+
+.redius{
+border-radius: 20px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
