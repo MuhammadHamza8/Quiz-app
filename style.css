@@ -1,13 +1,14 @@
 .form-col{
 
     background:#eeeeee;
-    height: 600px;
+    height: 750px;
 
     border-radius: 20px;
 }
 
+
 .progress{
-    margin-top: 100px;
+    margin-top: 5px;
 }
 
 #exampleInputEmail1{
@@ -19,7 +20,7 @@
 }
 
 .img{
-    height: 590px;
+    height: 750px;
     width: 600px;
    
 }
@@ -27,13 +28,18 @@
 .redius{
 border-radius: 20px;
 }
+.img-secure{
+    margin-top: 12px;
+    height: 750px;
 
+}
 
 .section-2 {
     background:#eeeeee;
 
     border-radius: 20px;
     margin-bottom: 100px;
+    height: 750px;
 }
 .button-style{
     padding-left: 20px;
@@ -76,7 +82,7 @@ body{
  
  @media    (max-width:1023px) and  (min-width:768px) {
     .img-resposive{
-        width: 202px;
+        width: 120px;
         margin-left: 250px;
 
     
@@ -86,8 +92,8 @@ body{
 
   @media  (max-width:767px) and (min-width:0px)  {
     .img-resposive{
-        width: 202px;
-        margin-left: 75px;
+        width: 120px;
+        margin-left: 116px;
 
     
     }
@@ -100,6 +106,44 @@ body{
 @media   (max-width: 770px) and (min-width:0px) {
     .secure {
         display: none;
+    }
+  }
+
+  @media   (max-width: 426px) and (min-width:376px) {
+    .form-col {
+     margin-left: 13px;
+    width: 350px;
+    height: 650;
+    margin-left: 38px;
+    }
+  }
+
+  @media   (max-width: 376px) and (min-width:0px) {
+    .form-col {
+     margin-left: 13px;
+    width: 350px;
+    height: 650;
+    }
+  }
+
+
+  @media   (max-width: 426px) and (min-width:376px) {
+    .section-2 {
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 350px;
+    margin-left: 40px;
+    height: 850px;
+    }
+  }
+
+  @media   (max-width: 376px) and (min-width:0px) {
+    .section-2 {
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 350px;
+ margin-left: 16px;
+    height: 850px;
     }
   }
 
