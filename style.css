@@ -60,15 +60,20 @@ body{
 @media  (max-width:2000px) and (min-width:1441px) {
     .img-resposive {
         width: 200px; 
-        margin-left: 430px;
+        display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 450px;
    }
  }
 
 @media  (max-width:1440px) and (min-width:1280px) {
     .img-resposive {
         width: 200px; 
-       
-        margin-left: 430px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-left: 450px;
    }
  }
 
@@ -76,7 +81,10 @@ body{
 @media  (max-width:1279px) and (min-width:1024px) {
     .img-resposive {
         width: 202px;
-        margin-left: 350px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-left: 400px;
    }
  }
 
@@ -84,7 +92,10 @@ body{
  @media    (max-width:1023px) and  (min-width:768px) {
     .img-resposive{
         width: 120px;
-        margin-left: 250px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-left: 300px;
 
     
     }
@@ -94,18 +105,25 @@ body{
   @media  (max-width:767px) and (min-width:0px)  {
     .img-resposive{
         width: 120px;
-        margin-left: 116px;
-
+        display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 122px;
     
+    }
+  }
+
+  @media   (max-width: 991px) and (min-width:770px) {
+    .img-secure {
+        display: none;
     }
   }
 
 
 
 
-
 @media   (max-width: 770px) and (min-width:0px) {
-    .secure {
+    .img-secure {
         display: none;
     }
   }
